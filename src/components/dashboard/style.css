@@ -1,0 +1,62 @@
+
+  .panel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border: 2px solid gray;
+    padding: 5px;
+  }
+
+  .panel {
+    border-radius: 1px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .panel-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .panel-status {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .voltage, .wattage {
+    font-size: 14px;
+  }
+  .status-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid rgb(90, 88, 88);
+    width: 200px;
+    background-color: #607d8b;
+    color: white;
+  }
+
+  .healthy-panel {
+    border: 2px solid rgb(90, 88, 88);
+    background-color: #4CAF50;
+    color:white
+  }
+
+  .weak-panel {
+    border: 2px solid rgb(90, 88, 88);
+    background-color: #ff5722;
+    color: white
+  }
+  .status-row{
+    display: flex;
+    gap: 10px;
+    margin:  20px 20px 20px 0px;
+   text-align: center;
+  }
+
+  .text{
+    color: white;
+    font-weight: 600;
+  }
